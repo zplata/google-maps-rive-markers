@@ -5,7 +5,8 @@ https://github.com/googlemaps/js-samples.
 
 This project is part of a livestream creative session using [Rive](https://rive.app/) graphics as Advanced Google Map Markers to build interactive content with the Google Maps APIs.
 
-- [Livestream link](https://www.youtube.com/watch?v=KqIg_qgdYGI) 
+- [Livestream link](https://www.youtube.com/watch?v=KqIg_qgdYGI)
+- [Rive asset](https://rive.app/community/6358-12333-marker-icon/)
 
 ## Update the Google Maps API key
 
