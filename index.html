@@ -1,0 +1,37 @@
+<!doctype html>
+<!--
+ @license
+ Copyright 2019 Google LLC. All Rights Reserved.
+ SPDX-License-Identifier: Apache-2.0
+-->
+<html>
+  <head>
+    <title>Advanced Markers with HTML</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <!-- Add Material-UI CSS -->
+    <link href="//cdn.muicss.com/mui-0.10.3/css/mui.min.css" rel="stylesheet" type="text/css" />
+    <script src="//cdn.muicss.com/mui-0.10.3/js/mui.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v6.2.0/js/all.js"></script>
+    <script src="https://unpkg.com/@rive-app/canvas@latest"></script>
+    <script type="module" src="./index.ts"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <form class="mui-form form-container">
+      <legend>Rive Map Markers</legend>
+      <div class="mui-textfield input-container">
+        <input id="autocomplete" type="text" placeholder="e.g., Willis Tower">
+        <label>Enter a Destination</label>
+      </div>
+    </form>
+    <div id="map"></div>
+    <div class="hidden places-container">
+      <div class="places-container-relative">
+        <ul id="added-places">
+        </ul>
+      </div>
+    </div>
+    <!-- Add a file named as such below (or your own name) that has the script to load in GMaps API -->
+    <script src="./DONT_SHOW_THIS.ts"></script>
+</body>
+</html>
